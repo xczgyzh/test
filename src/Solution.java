@@ -20,17 +20,5 @@ public class Solution {
         }
         return len;
     }
-    public static void main(String args[]){
-        String s="abcdea";
-        String s1="abc";
-        String s2="";
-        String s3="abdefsfga";
-        String s4="acssspdifudt";
-        
-        System.out.println(longestSubstring(s,s.length()));
-        System.out.println(longestSubstring(s1,s1.length()));
-        System.out.println(longestSubstring(s2,s2.length()));
-        System.out.println(longestSubstring(s3,s3.length()));
-        System.out.println(longestSubstring(s4,s4.length()));
-    }
+
 }
